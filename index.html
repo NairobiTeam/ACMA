@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coffee Puppies</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- =======================================================
+    Theme Name: Delicious
+    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">About</a>
+			<a href="#event">Event</a>
+            <a href="#menu-list">Menu</a>
+            <a href="#contact">Book a book</a>
+			<a href="#owners"> Owners</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">Coffee Puppies</h1>
+			<img src="img/logo.png" alt="logo" class="center" >
+            <h2>Fall in love with coffee all over again.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">How did Coffee Puppies appear?</h1>
+          <p class="header-p">We are four teens who have set up this type of cafe, and, given our passion for reading,
+            <br>we thought to combine these two wonderful things: coffee and books.
+			<br>We wanted this place to make your life more beautiful, more creative and more caffeinated :).</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">With our partners, our coffee and our customers, we live in the following ways:</h2>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Creating a culture of hospitality and belonging, where everyone feels welcome.</li>
+                  <li><i class="fa fa-check"></i>Courage, questioning the status quo and finding new ways to develop the company and people.</li>
+                  <li><i class="fa fa-check"></i>Promptness, transparency, dignity and respect in relationships.</li>
+                  <li><i class="fa fa-check"></i>Maximum professionalism in everything we do, assuming responsibility for results.</li>
+                </ul>
+				<p>We are motivated by performance through humanity. With regard to the reading list, the books you can find in our café are new in all areas: from fiction to personal development.
+				<br>So what are you waiting for?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+           <img src="img/coffee shop 2.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- event -->
+  <section id="event">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Up Coming events</h1>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-6 col-sm-6 left-images">
+                <img src="img/poz.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>Weekly Event</h2>
+                  <p>Kiera Cass writer arrives for the first time in Romania!
+On the occasion of launching in Romanian the last volume of the "The Selection" series, a book you can find at the Corint publishing house, the wonderful author comes to our country, right at our café!
+We are waiting for you at the event, for an autograph session, and for a Q & A.
+You can book tickets on our Facebook page: Coffee Puppies</p>
+                  <address>
+                              <strong>Place: </strong>
+                              12 Lisabona Street,Bucharest,Romania
+                              <br>
+                              <strong>Time: </strong>
+                              05:30pm
+                            </address>
+                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more on Facebook</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ event -->
+  <!-- menu -->
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Menu List</h1>
+        </div>
+
+        <div class="col-md-12  text-center" id="menu-flters">
+          <ul>
+            <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
+            <li><a class="filter" data-filter=".breakfast">Hot Stuff</a></li>
+            <li><a class="filter" data-filter=".lunch">Cold Stuff</a></li>
+            <li><a class="filter" data-filter=".dinner">Sweets</a></li>
+          </ul>
+        </div>
+
+        <div id="menu-wrapper">
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Espresso</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">8.00 RON</span>
+            </span>
+            <span class="menu-subtitle">One shot (30 ml) of espresso</span>
+          </div>
+		  
+		  <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Double Espresso</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">10.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Two shots of espresso</span>
+          </div>
+		  
+		  <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Cappucino</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">12.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Espresso, warm milk and cream </span>
+          </div>
+		  
+		  <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Caffe Latte</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">12.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Double espresso, warm milk and cream</span>
+          </div>
+		  
+		  <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Hot Chocolate</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">10.00 RON</span>
+            </span>
+          </div>
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fruit Tea</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">10.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Peach, lemon, forest fruit</span>
+          </div>
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Exotic Tea</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">15.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Mango, watermelon, apple & cinnamon</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Frappe</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">12.00 RON</span>
+            </span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Ice Brew Caffe</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">12.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Coffee, orange and grapefruit</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Ice Tea</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">10.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Peach, lemon and forest fruit</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Refreshments</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">6.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Coca Cola, Fanta, Sprite, Schweppes</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Cocktails</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">15.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Green apple, Campari orange, Tonic gin, Champagne</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chocolate Cake</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">14.00 RON/PIECE</span>
+            </span>
+            <span class="menu-subtitle">Chocolate cream, chocolate mousse and a drop of our special forest fruit syrup</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Cheese Cake</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">14.00 RON/PIECE</span>
+            </span>
+            <span class="menu-subtitle">Biscuits, cheese cream, vanilla extract, rasberries</span>
+          </div>
+		  
+		  <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Profiteroles</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">14.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Small donuts filled with ice cream and dipped in chocolate cream</span>
+          </div>
+		  
+		  <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Lava Cake</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">18.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Chocolate mousse served with a spoon of vanilla ice cream</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Ice Cream</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">12.00 RON</span>
+            </span>
+            <span class="menu-subtitle">Chocolate, vanilla, strawberry, mint, coffee</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--/ menu -->
+<!-- contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="header-h">Book Your Book</h1>
+          <p class="header-p">All you have to do is to choose your favourite book
+            <br>and book it. You will receive it when you get in the caffe. </p>
+        </div>
+      </div>
+      <div class="row msg-row">
+        <div class="col-md-4 col-sm-4 mr-15">
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Phone Numbers</h4>
+              <p class="light-blue regular alt-p">+4705956214 - <span class="contacts-sp">Phone Booking</span></p>
+            </div>
+          </div>
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Opening Hours</h4>
+              <p class="light-blue regular alt-p"> Monday to Friday 07.00 - 18:00</p>
+              <p class="light-blue regular alt-p">
+                Saturday and Sunday 08:00 - 17.00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-8">
+          <form action="" method="post" role="form" class="contactForm">
+            <div id="sendmessage">Your booking request has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <div class="col-md-6 col-sm-6 contact-form pad-form">
+              <div class="form-group label-floating is-empty">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-12 contact-form">
+              <div class="form-group label-floating is-empty">
+                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+            </div>
+            <div class="col-md-12 btnpad">
+              <div class="contacts-btn-pad">
+                <button class="contacts-btn" onclick="alert('Your book has been booked!')">Book a Book</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / contact -->
+  <!-- Despre noi-->
+	<section id="owners">
+<div class="main">
+	<center><h1 class="header-h">About us</h1></center>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="img/alina.jpg" alt="Alina :)" style="width:70%">
+      <h3>Alina</h3>
+      <p>I'm 17 years old and I study in "Matei Basarab" National College. I love reading and puppies</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/codruta.jpg" alt="Codruta" style="width:70%">
+      <h3>Codruta</h3>
+      <p>Hello!I'm 15 years old and I study in "Saint Sava" National College.I spend most of my time reading and going out with my friends.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/maria.PNG" alt="Maria" style="width:70%">
+      <h3>Maria</h3>
+      <p>I'm 17 years old and I study in "Matei Basarab" National College.I spend most of my time listening to music.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/andreea.jpg" alt="Andreea" style="width:70%">
+      <h3>Andreea</h3>
+      <p>Hey!My name is Andreea,I'm 16 years old and I'm a junior in highschool.In my free time I like to listen to music and go out shopping or chilling with my friends and sisters.</p>
+    </div>
+  </div>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+	</section>
+  <!--/ Despre noi-->
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">Coffee Puppies</h4>
+            <address>12 Lisabona Street<br>Bucharest, Romania</address>
+            <div class="social-list">
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			  <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+            </div>
+            <p class="copyright clear-float">
+              © Coffee Puppies Theme. All Rights Reserved
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
+                -->
+                Designed by <a href="https://bootstrapmade.com/">ACMA</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
